@@ -131,7 +131,8 @@ void initVao() {
 
 }
 
-float* rotationMatr(float elapsed) {
+float* rotationMatr(float elapsed) 
+{
     float part = fmodf(elapsed, 5.0f) / 5.0f;
     float angle = 3.14159f * 2.0f * part;
     float res[] = {

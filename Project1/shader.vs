@@ -9,6 +9,6 @@ uniform mat4 rotMatr;
 smooth out vec4 _color;
 
 void main() {
-    gl_Position = projMatr * (rotMatr*pos + vec4(0.0f, -1.5f, -4.0f, 0.0f));
+    gl_Position = projMatr * (rotMatr*pos + vec4(3.0f, -1.5f, -4.0f, 0.0f)); 
     _color = color;
 }
